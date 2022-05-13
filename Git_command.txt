@@ -1,0 +1,10 @@
+git config --global user.name "name"
+git config --global user.email "email"
+git config --global init.defaultBranch main
+git init
+git status
+.gitignore: 무시할 파일 또는 폴더 추가 
+git add "file name" or git add . : file upload
+git commit -m "file name"
+git commit -am "file name" : git add 과정 생략 가능
+git log : log 확인
