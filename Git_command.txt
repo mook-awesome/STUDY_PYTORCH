@@ -8,3 +8,18 @@ git add "file name" or git add . : file upload
 git commit -m "file name"
 git commit -am "file name" : git add 과정 생략 가능
 git log : log 확인
+
+git remote add "Repository name" "Repository URL"
+git branch "branch name" --> branch 생성
+git branch -r --> remote에 있는 branch 목록 표시
+git branch -a --> local과 remote 모두에 대해서 branch 목록 표시
+git push "repository name" "branch name"
+git checkout -t "branch name" --> remote에 있는 branch local로 가져옴.
+
+git revert "hash code" --> 내용이 삭제된는것이 아니라 새로운 커밋을 추가하는 형태
+git revert --no-commit "hash code" --> commit을 하기 전 상태
+
+git reset --hard "hash code"  --> 첫 commit 시점으로 돌아감.
+git reset --hard --> 마지막 commit 시번으로 돌아감.
+
+git merge "Branch name"
