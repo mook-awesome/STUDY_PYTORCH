@@ -1,0 +1,13 @@
+sudo apt-get 
+audo apt-get install gcc
+sudo apt-get install make
+cd /opt
+sudo wget https://www.python.org/ftp/python/3.10.4/Python-3.10.4.tgz
+sudo tar xzf Python-3.10.4.tgz
+sudo ./configure --enable-optimizations
+sudo make altinstall
+sudo update-alternatives --config python --> 에러나면 아래꺼 실행
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
+apt-get install python3-distutils
+wget https://bootstrap.pypa.io/get-pip.py # 파이썬 패키지 관리툴
+python3 get-pip.py
